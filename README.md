@@ -36,4 +36,11 @@ What changed vs v6:
 3. wait to load
 4. click F12 in desmos go to console if can't find press esc
 5. open and paste the insane_apply_styles.js content in console
-6. if not supported paste the insane_styles_n.txt files content sequentially in console 
+6. if not supported paste the insane_styles_n.txt files content sequentially in consol
+
+# Examples 
+<img width="413" height="370" alt="image" src="https://github.com/user-attachments/assets/c5b50e4b-a448-4e51-abfa-91e5e43329e4" />
+<img width="366" height="482" alt="image" src="https://github.com/user-attachments/assets/66b65d08-a9e4-43ef-85c5-3e9797f07c07" />
+<img width="344" height="513" alt="image" src="https://github.com/user-attachments/assets/654dc4ea-4bf0-40dc-ae41-fc8b47d32e61" />
+
+
