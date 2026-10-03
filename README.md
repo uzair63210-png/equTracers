@@ -1,4 +1,4 @@
-# epuTracer
+# equTracer
 <br> it is the image to desmos equation converter.
 <br> it version 9 of it
 #equTracer.py v9 -- image -> Desmos art (centerline tracing)
