@@ -19,10 +19,10 @@ What changed vs v6:
   6. expression budget keeps the longest / most important strokes
 # How setup
 <br>
-1. download the notebook/file
-2. upload it into Google colab
-3. click on runtime and change runtime type to T4 gpu
-4. run notebook sequence from start.
+1. download the notebook/file <br>
+2. upload it into Google colab <br>
+3. click on runtime and change runtime type to T4 gpu <br>
+4. run notebook sequence from start. <br>
 
 # Per requirement for upload image
 <br> to get the best output 
