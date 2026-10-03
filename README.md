@@ -1,7 +1,7 @@
 # epuTracer
 <br> it is the image to desmos equation converter.
-<br> it version 7 of it
-#equTracer.py v7 -- image -> Desmos art (centerline tracing)
+<br> it version 9 of it
+#equTracer.py v9 -- image -> Desmos art (centerline tracing)
 
 What changed vs v6:
   v6 built a THICK mask (median stroke ~7 px, 19.7% of the image) and traced
@@ -10,7 +10,7 @@ What changed vs v6:
   black dashes and blobs.  Blur edge effects also filled the image border,
   and Sobel/Frangi/k-means layers fired on faint shading.
 
-# v7 pipeline:
+# v9 pipeline:
   1. reflect-pad + non-local-means denoise   (JPEG block noise gone, no border)
   2. single scale-space Canny on luminance    (hysteresis => isolated noise dies)
   3. seal 1 px gaps + skeletonize          -> true 1 px lines
@@ -28,4 +28,12 @@ What changed vs v6:
 <br> to get the best output 
 1. remove the Background of the image
 2. make the image contrast to show clear outlines
-3. best work with anime or animated images
+3. best work with anime or animated images.
+
+# How to export to desmos
+1. it will the the 2 file or more as output
+2. open the insan.txt file and copy whole equation is desmos equation
+3. wait to load
+4. click F12 in desmos go to console if can't find press esc
+5. open and paste the insane_apply_styles.js content in console
+6. if not supported paste the insane_styles_n.txt files content sequentially in console 
