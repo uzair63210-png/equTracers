@@ -1,4 +1,4 @@
-#epuTracer
+# epuTracer
 <br> it is the image to desmos equation converter.
 <br> it version 7 of it
 #equTracer.py v7 -- image -> Desmos art (centerline tracing)
@@ -10,7 +10,7 @@ What changed vs v6:
   black dashes and blobs.  Blur edge effects also filled the image border,
   and Sobel/Frangi/k-means layers fired on faint shading.
 
-#v7 pipeline:
+# v7 pipeline:
   1. reflect-pad + non-local-means denoise   (JPEG block noise gone, no border)
   2. single scale-space Canny on luminance    (hysteresis => isolated noise dies)
   3. seal 1 px gaps + skeletonize          -> true 1 px lines
