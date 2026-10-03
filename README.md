@@ -17,6 +17,12 @@ What changed vs v6:
   4. graph trace into OPEN paths, prune spurs, drop short/compact specks
   5. smooth -> cubic-Bezier fit (lines when straight, ellipse for full loops)
   6. expression budget keeps the longest / most important strokes
+# How setup
+<br>
+1. download the notebook/file
+2. upload it into Google colab
+3. click on runtime and change runtime type to T4 gpu
+4. run notebook sequence from start.
 
 # Per requirement for upload image
 <br> to get the best output 
